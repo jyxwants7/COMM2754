@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 600px;
+    height: 500px;
+    background-color: #ffd7ee;
+    margin: 0 auto;
+    position: relative;
+    border: 3px solid rgb(255, 115, 239);
+    overflow: hidden;
+}
+
+.square,
+.circle,
+.rectangle {
+    position: absolute;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.rectangle.horizontal {
+    width: 140px;
+    height: 50px;
+}
+
+.rectangle.vertical {
+    width: 50px;
+    height: 140px;
+}
+
+.small {
+    width: 50px;
+    height: 50px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+/* main shapes */
+.square.red {
+    top: 30px;
+    left: 30px;
+}
+
+.square.yellow {
+    top: 30px;
+    left: 170px;
+}
+
+.circle.red {
+    top: 180px;
+    left: 60px;
+}
+
+.circle.yellow {
+    top: 180px;
+    left: 210px;
+}
+
+/* smaller shapes */
+.square.white.small {
+    top: 60px;
+    right: 80px;
+}
+
+.square.black.small {
+    top: 130px;
+    right: 140px;
+}
+
+.circle.white.small {
+    top: 220px;
+    right: 100px;
+}
+
+.circle.black.small {
+    top: 290px;
+    right: 160px;
+}
+
+/* rectangles */
+.rectangle.red.horizontal {
+    bottom: 40px;
+    left: 40px;
+}
+
+.rectangle.yellow.vertical {
+    bottom: 90px;
+    left: 220px;
+}
+
+.rectangle.white.horizontal {
+    bottom: 50px;
+    right: 60px;
+}
+
+/* lines */
+.line {
+    position: absolute;
+    background-color: black;
+}
+
+.line1 {
+    width: 6px;
+    height: 200px;
+    left: 320px;
+    top: 40px;
+}
+
+.line2 {
+    width: 180px;
+    height: 6px;
+    left: 300px;
+    top: 260px;
+}
+
+.line3 {
+    width: 6px;
+    height: 140px;
+    right: 220px;
+    bottom: 40px;
+}
